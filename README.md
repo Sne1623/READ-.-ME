@@ -32,7 +32,8 @@ The network connection was verified using the following methods:
 - **Network Settings:** Checked via Settings → Network & Internet → Status. The system was connected to the internet.  
 - **Command Prompt:** Ran `ipconfig /all` to verify IP address, gateway, and network adapter details.
 
-<img width="697" height="790" alt="network-connected" src="https://github.com/user-attachments/assets/ea108ca1-9fba-4868-b9ba-80456ccd433d" />
+<img width="1155" height="846" alt="image" src="https://github.com/user-attachments/assets/8cd49748-405f-4c1f-ae83-da5a2688996d" />
+
 
 
 ---
