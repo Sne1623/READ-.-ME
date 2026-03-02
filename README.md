@@ -19,7 +19,8 @@ Hardware Details:
 - Computer Name: DESKTOP-H8GE5NC
 - Time Zone: South Africa Standard Time
 
-<img width="1520" height="684" alt="SYSTEM INFORMATION" src="https://github.com/user-attachments/assets/de397aa2-b0d0-4034-8235-8f29b259b0af" />
+<img width="1155" height="687" alt="image" src="https://github.com/user-attachments/assets/6a011c19-b353-4990-882f-40f42d943cf1" />
+
 
 
 ---
