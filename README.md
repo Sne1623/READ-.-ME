@@ -1,78 +1,49 @@
-IT Support – System Check & Troubleshooting Report
+Technical Support Fundamentals – System Check
+
 Name: Sinenhlanhla Khumalo
-Course: Technical Support Fundamentals
+System Used: Windows 11
 Date: 13 February 2026
 
-1️⃣ System Specifications
+1. System Information
 
-The system used for this task is a Lenovo desktop (Model: 10QG001RSA, V310z All-in-One series) running Windows 10 Pro (Version 10.0.19045).
-
-Hardware Details:
-
-- Processor (CPU): Intel Core i3-7100 @ 3.90GHz (7th-generation dual-core)
-- Memory (RAM): 8.00 GB
-- System Type: x64-based PC
-- BIOS Mode: UEFI
-- Secure Boot: On
-- BaseBoard (Motherboard): Lenovo model 3116
-- User Account: CAPACITI-JHB
-- Computer Name: DESKTOP-H8GE5NC
-- Time Zone: South Africa Standard Time
-
-<img width="1155" height="687" alt="image" src="https://github.com/user-attachments/assets/6a011c19-b353-4990-882f-40f42d943cf1" />
+I checked system specifications using msinfo32.
+<img width="1198" height="637" alt="System Information" src="https://github.com/user-attachments/assets/bb4ebe91-ca1d-4498-a47c-ab1cd14a54a1" />
 
 
 
----
+2. Network Verification
 
-2️⃣ Network Status Verification
+I verified network settings using:
 
-The network connection was verified using the following methods:
+ipconfig
 
-- **Network Settings:** Checked via Settings → Network & Internet → Status. The system was connected to the internet.  
-- **Command Prompt:** Ran `ipconfig /all` to verify IP address, gateway, and network adapter details.
-
-<img width="1155" height="846" alt="image" src="https://github.com/user-attachments/assets/8cd49748-405f-4c1f-ae83-da5a2688996d" />
+The system had a valid IPv4 address and default gateway.
+<img width="1231" height="792" alt="Check Network Status" src="https://github.com/user-attachments/assets/c5b735f2-aaa9-4902-8f03-56c1da4bb5d1" />
 
 
 
----
+3. Simulated Issue
 
-3️⃣ Simulated Issue
+I disabled the network adapter and tested connection using:
 
-The simulated issue was an **internet disconnection**.  
+ping google.com
 
-- The WiFi adapter was manually disabled to create a network failure scenario.  
-- This allowed testing of basic troubleshooting procedures.
-
-<img width="664" height="858" alt="ipconfig" src="https://github.com/user-attachments/assets/ba2ff067-6487-43f3-a0eb-2fbd5458c6e5" />
+The connection failed.
+<img width="1193" height="269" alt="failed ping" src="https://github.com/user-attachments/assets/6b59a070-384e-4688-839c-50f9676290e5" />
 
 
----
 
-4️⃣ Troubleshooting Steps Taken
+4. Troubleshooting & Resolution
 
-1. Re-enabled the WiFi adapter via Settings → Network & Internet → Advanced Network Settings.  
-2. Ran the Windows Network Troubleshooter and followed recommended steps.  
-3. Verified connectivity by opening Command Prompt and executing:The system successfully received replies, confirming internet restoration.
+I re-enabled the network adapter and tested again using:
 
-<img width="697" height="787" alt="network-disconnected" src="https://github.com/user-attachments/assets/5a9c91ee-7198-4bff-994e-cdd381e6bf5d" />
+ping google.com
+
+The connection was restored successfully.
+
+<img width="1227" height="352" alt="ping successful" src="https://github.com/user-attachments/assets/a56169e9-862d-4321-8e8f-46c32a973285" />
 
 
----
+Conclusion
 
-5️⃣ Conclusion
-
-The simulated issue was successfully identified and resolved.  
-
-The troubleshooting process confirmed:
-
-- Proper system functionality  
-- Correct network configuration  
-- Ability to restore connectivity using standard IT support procedures
-
-This exercise demonstrates fundamental skills in system checking, network verification, issue simulation, and resolution in a Windows environment.
-
-<img width="700" height="752" alt="network-restored" src="https://github.com/user-attachments/assets/a636a27a-f372-4c57-9cce-7e479b22b37f" />
-<img width="1266" height="737" alt="network-working" src="https://github.com/user-attachments/assets/a2c23eea-aad8-4cad-9988-3998623f2997" />
-
+The system check was completed successfully. A network issue was simulated and resolved.
