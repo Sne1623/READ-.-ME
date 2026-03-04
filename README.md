@@ -1,7 +1,9 @@
 Technical Support Fundamentals – System Check
 
 Name: Sinenhlanhla Khumalo
+
 System Used: Windows 11
+
 Date: 13 February 2026
 
 1. System Information
